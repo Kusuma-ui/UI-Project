@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Royal Treat</title>
+</head>
+<body>
+  <div class="banner">
+    <div class="navbar">
+      <div class="cart">
+         <span id="cartCount"></span>
+      </div>
+      <img src="images/logo2.png" alt="logo" class="logo">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Our menu</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>ś
+    </div>
+    <div class="content">
+      <h1>Royal Treat</h1>
+      <p class="subtitle">A Royal Taste of India</p>
+      <div>
+        <button type="button">Order food</button>
+        <button type="button">Our location</button>
+      </div>
+      </div>
+  </div>  
+      <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-container">
+
+          <div class="menu-card">
+            <img src="images/Pasta.jpg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p class="foodPrice">₹300</p>
+            <button onclick="addToCart('Pasta', 300, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Fried-rice.jpg" alt="Chicken Friedrice">
+            <h3>Chicken Friedrice</h3>
+            <p class="foodPrice">₹200</p>
+            <button onclick="addToCart('Chicken Friedrice', 200, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Noodles.jpg" alt="Noodles">
+            <h3>Noodles</h3>
+            <p class="foodPrice">₹150</p>
+            <button onclick="addToCart('Noodles', 150, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Cake.jpg" alt="Chocolate cake">
+            <h3>Chocolate cake</h3>
+            <p class="foodPrice">₹550</p>
+            <button onclick="addToCart('Chocolate cake', 550, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Shawarma.jpg" alt="Shawarma">
+            <h3>Shawarma</h3>
+            <p class="foodPrice">₹120</p>
+            <button onclick="addToCart('Shawarma', 120, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Biryani.jpg" alt="Chicken Biryani">
+            <h3>Chicken Biryani</h3>
+            <p class="foodPrice">₹400</p>
+            <button onclick="addToCart('Chicken Biryani', 400, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Apricot.jpg" alt="Apricot Delight">
+            <h3>Apricot Delight</h3>
+            <p class="foodPrice">₹350</p>
+            <button onclick="addToCart('Apricot Delight', 350, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Icecream.jpg" alt="Ice Cream">
+            <h3>Ice Cream</h3>
+            <p class="foodPrice">₹250</p>
+            <button onclick="addToCart('Ice Cream', 250, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Sandwich.jpg" alt="Sandwich">
+            <h3>Sandwich</h3>
+            <p class="foodPrice">₹180</p>
+            <button onclick="addToCart('Sandwich', 180, this)">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="menu-card">
+            <img src="images/Milkshake.jpg" alt="Chocolate Milkshake">
+            <h3>Chocolate Milkshake</h3>
+            <p class="foodPrice">₹290</p>
+            <button onclick="addToCart('Chocolate Milkshake', 290, this)">
+              Add to Cart
+            </button>
+          </div>
+          </div>
+        </div>
+      </section>
+
+  
+    <footer class="footer">
+      <p><strong>Royal Treat</strong></p>
+      <p>Hyderabad, Telangana</p>
+      <p>Open: 10 AM - 11 PM</p>
+      <p>&#128222; 9876543210</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
